@@ -8,7 +8,7 @@ SUDO_USER=
 for i in ${servers[@]}
   do
     echo $i
-    ssh -t $i -p60123 -l $SUDO_USER 'sudo apt-get update && sudo apt-get dist-upgrade'
+    ssh -t $i -pSSH_PORT -l $SUDO_USER 'sudo apt-get update && sudo apt-get dist-upgrade'
     echo '#####'
 done
 exit
