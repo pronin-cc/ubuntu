@@ -7,6 +7,10 @@ mc
 nano
 nmap
 dput
+rar
+unrur
+zip
+
 
 # For desktop
 apt-get install
